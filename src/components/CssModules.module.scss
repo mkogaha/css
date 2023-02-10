@@ -1,0 +1,25 @@
+.container {
+  border: solid 2px #392eff;
+  border-radius: 20px;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+.title {
+  margin: 0;
+  color: #392eff;
+}
+.button {
+  background-color: #aabbee;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  // 純粋なcssなので下記のようなsassの記法が使える
+  &:hover {
+    background-color: #46cdcf;
+    color: #fff;
+    cursor: pointer;
+  }
+}
